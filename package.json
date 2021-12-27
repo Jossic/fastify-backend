@@ -1,9 +1,15 @@
 {
 	"name": "backend",
 	"version": "1.0.0",
-	"main": "app.js",
+	"main": "server.js",
 	"license": "MIT",
+	"scripts": {
+		"start": "nodemon server.js"
+	},
 	"dependencies": {
 		"fastify": "^3.25.2"
+	},
+	"devDependencies": {
+		"pino-pretty": "^7.3.0"
 	}
 }
