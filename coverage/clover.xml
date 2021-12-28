@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1640696822289" clover="3.2.0">
-  <project timestamp="1640696822289" name="All files">
+<coverage generated="1640697392793" clover="3.2.0">
+  <project timestamp="1640697392793" name="All files">
     <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1" elements="16" coveredelements="16" complexity="0" loc="13" ncloc="13" packages="1" files="1" classes="1"/>
     <file name="app.js" path="/Users/jossic/Dropbox/JOSSIC/6-development/Devs/fastify/backend/src/app.js">
       <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
