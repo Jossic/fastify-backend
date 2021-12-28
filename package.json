@@ -1,18 +1,23 @@
 {
-	"name": "backend",
-	"version": "1.0.0",
-	"main": "server.js",
-	"license": "MIT",
-	"scripts": {
-		"start": "nodemon server.js"
-	},
-	"dependencies": {
-		"fastify": "^3.25.2"
-	},
-	"devDependencies": {
-		"eslint": "^8.5.0",
-		"eslint-config-airbnb-base": "^15.0.0",
-		"eslint-plugin-import": "^2.25.3",
-		"pino-pretty": "^7.3.0"
-	}
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon server.js",
+    "lint": "eslint '**/*.js' --fix --ignore-pattern node_modules/",
+    "format": "prettier --write '**/*.js'"
+  },
+  "dependencies": {
+    "fastify": "^3.25.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.5.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-prettier": "^4.0.0",
+    "pino-pretty": "^7.3.0",
+    "prettier": "2.5.1"
+  }
 }
