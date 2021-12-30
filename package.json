@@ -10,7 +10,8 @@
     "test:watch": "jest --watchAll"
   },
   "dependencies": {
-    "fastify": "^3.25.2"
+    "fastify": "^3.25.2",
+    "nodemon": "^2.0.15"
   },
   "devDependencies": {
     "eslint": "^8.5.0",
